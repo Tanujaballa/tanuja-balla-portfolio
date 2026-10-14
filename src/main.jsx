@@ -74,7 +74,7 @@ function App() {
       </section>
 
       <section id="about" className="section">
-        <div className="section-heading"><p className="eyebrow">01 — ABOUT</p><h2>Engineering with a practical mindset.</h2></div>
+        <div className="section-heading"><p className="eyebrow"><span className="section-dot"></span> ABOUT</p><h2>Engineering with a practical mindset.</h2></div>
         <div className="about-grid">
           <div className="about-main">
             <p>I work across both frontend and backend development, building features, implementing validations, developing REST APIs, fixing production issues and improving application performance.</p>
@@ -86,13 +86,13 @@ function App() {
       </section>
 
       <section id="skills" className="section shaded">
-        <div className="section-heading"><p className="eyebrow">02 — SKILLS</p><h2>Tools I use to build.</h2></div>
+        <div className="section-heading"><p className="eyebrow"><span className="section-dot"></span> SKILLS</p><h2>Tools I use to build.</h2></div>
         <div className="skill-grid">{skills.map(([name,Icon,desc]) => <article className="skill-card" key={name}><div className="icon-box"><Icon size={21}/></div><h3>{name}</h3><p>{desc}</p></article>)}</div>
         <div className="stack-line"><span>Also worked with</span>{["JavaScript","HTML","CSS","Express.js","TypeScript","REST APIs","Microservices","Git","Kibana"].map(x => <b key={x}>{x}</b>)}</div>
       </section>
 
       <section id="experience" className="section">
-        <div className="section-heading"><p className="eyebrow">03 — EXPERIENCE</p><h2>What I work on.</h2></div>
+        <div className="section-heading"><p className="eyebrow"><span className="section-dot"></span> EXPERIENCE</p><h2>What I work on.</h2></div>
         <div className="timeline"><div className="timeline-item"><div className="timeline-dot"></div><div className="timeline-content">
           <div className="timeline-meta"><span>FULL STACK DEVELOPMENT</span><span>2+ YEARS</span></div>
           <h3>Full Stack Developer</h3>
@@ -102,7 +102,7 @@ function App() {
       </section>
 
       <section id="projects" className="section shaded">
-        <div className="section-heading"><p className="eyebrow">04 — PROJECTS</p><h2>Selected work.</h2></div>
+        <div className="section-heading"><p className="eyebrow"><span className="section-dot"></span> PROJECTS</p><h2>Selected work.</h2></div>
         <div className="project-grid">{projects.map(p => <article className="project-card" key={p.title}>
           <div className="project-top"><span className="project-tag">{p.tag}</span><ArrowUpRight size={20}/></div><h3>{p.title}</h3><p>{p.description}</p>
           <ul>{p.points.map(x => <li key={x}>{x}</li>)}</ul><div className="chips">{p.stack.map(x => <span key={x}>{x}</span>)}</div>
