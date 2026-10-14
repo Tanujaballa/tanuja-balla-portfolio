@@ -113,11 +113,11 @@ function App() {
         <p className="eyebrow">05 — CONTACT</p><h2>Let’s build something useful.</h2>
         <p>I’m open to Full Stack / MERN-oriented opportunities and engineering teams working on scalable web applications.</p>
         <div className="contact-actions">
-          <a className="primary" href="mailto:your.email@example.com"><Mail size={18}/> Email me</a>
-          <a className="secondary" href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><Linkedin size={18}/> LinkedIn</a>
-          <a className="secondary" href="https://github.com/" target="_blank" rel="noreferrer"><Github size={18}/> GitHub</a>
+          <a className="primary" href="mailto:ballatanuja627@gmail.com"><Mail size={18}/> Email me</a>
+          <a className="secondary" href="https://www.linkedin.com/in/tanuja-balla" target="_blank" rel="noreferrer"><Linkedin size={18}/> LinkedIn</a>
+      
         </div>
-        <p className="edit-note">Replace the email, LinkedIn and GitHub links with your actual profiles before publishing.</p>
+
       </div></section>
     </main>
 
