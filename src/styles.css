@@ -15,5 +15,14 @@
 .project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.project-card{background:#fff;border:1px solid #dce5ec;border-radius:15px;padding:27px;display:flex;flex-direction:column;min-height:480px}.project-top{display:flex;justify-content:space-between;color:var(--blue)}.project-tag{font-size:11px;font-weight:800;letter-spacing:1px;text-transform:uppercase}.project-card h3{font-size:23px;line-height:1.2;margin:25px 0 12px;letter-spacing:-.5px}.project-card>p{color:var(--muted);line-height:1.7;font-size:14px}.project-card ul{padding-left:18px;color:#5a6874;font-size:13px;line-height:1.65}.chips{display:flex;gap:7px;flex-wrap:wrap;margin-top:auto;padding-top:22px}.chips span{padding:6px 9px;font-size:10px}
 .contact-section{max-width:none;background:#18232d}.contact-card{max-width:900px;margin:auto;text-align:center}.contact-card .eyebrow{color:#75bdf5}.contact-card h2{color:#fff;font-size:clamp(38px,5vw,62px);letter-spacing:-2px;margin:0}.contact-card>p:not(.eyebrow):not(.edit-note){color:#b9c4cd;line-height:1.75;max-width:650px;margin:22px auto 30px}.contact-actions{justify-content:center}.contact-actions .secondary{background:transparent;border-color:#47545f;color:#fff}.edit-note{margin-top:26px;color:#7f8d98;font-size:11px}
 footer{background:#121b22;color:#87949e;display:flex;justify-content:space-between;padding:22px 8vw;font-size:12px}footer button{color:#b8c3cb;background:transparent;border:0;display:flex;align-items:center;gap:2px}
+.section-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #2196f3;
+  border-radius: 50%;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
 @media(max-width:900px){.hero{grid-template-columns:1fr;min-height:auto;padding-top:75px}.hero-card{transform:none;max-width:700px}.about-grid{grid-template-columns:1fr;gap:35px}.skill-grid,.project-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:650px){.nav{height:68px;padding:0 5vw}.menu{display:block}.navlinks{display:none;position:absolute;left:0;right:0;top:68px;padding:15px 5vw 20px;background:rgba(255,255,255,.98);border-bottom:1px solid var(--line);flex-direction:column;gap:0}.navlinks.open{display:flex}.navlinks button{text-align:left;padding:13px 0}.section{padding:75px 5vw}.hero h1{letter-spacing:-2.5px}.hero-text{font-size:16px}.skill-grid,.project-grid{grid-template-columns:1fr}.project-card{min-height:auto}.timeline-meta{flex-direction:column;gap:5px}footer{flex-direction:column;gap:10px;padding:22px 5vw}}
